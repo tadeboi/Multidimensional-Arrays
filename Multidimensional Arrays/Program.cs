@@ -26,11 +26,12 @@ namespace Multidimensional_Arrays
                                 var values = array4D[i, j, k, l];
                                 var squared = (int)Math.Pow(values, 2);
 
-                                Console.WriteLine($" {squared} ");
+                                Console.Write($" {squared} ");
                             }
                         }
                     }
                 }
+                Console.ReadLine();
             }
             catch (Exception ex)
             {
